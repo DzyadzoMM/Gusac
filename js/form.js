@@ -51,8 +51,8 @@ form.addEventListener('submit', e => {
         showGooseAnim();
 
         setTimeout(() => {
-            // launchBtn.removeAttribute('disabled')
-            // clearFormFields();
+            launchBtn.removeAttribute('disabled')
+            clearFormFields();
         }, 2000);
       })
       .catch((error) => console.log('Sending form failed'));
