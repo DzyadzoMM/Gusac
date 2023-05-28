@@ -7,6 +7,8 @@
 
   <title>Banderogus</title>
   
+  <link rel="preload" href="/img/gus-anim.gif" as="image">
+  
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
@@ -28,7 +30,7 @@
           <h1 class="main_page_text_conteiner_h1">Бандерогусь</h1>
           <p class="main_page_text_conteiner_p">Спеціальний бойовий гусак із біолабораторій України. Пишаюся своїми подвигами, бороню Батьківщину та підтримую позитивний дух народу. Слава Україні!</p>
           
-          <button class="main_page_button">Запустити гуся</button>
+          <button class="main_page_button" id="go-to-form-btn">Запустити гуся</button>
         </div>
       </div>
       <img src="/img/gus-main-page.svg" alt="gusac" />
@@ -59,5 +61,27 @@
       
     </div>
   </section>
+  <section class="form_section">
+    
+    <form action="#" class="form_conteiner" id="form" data-netlify="true">
+      <img src="/img/tryzub.svg" alt="tryzub" class="tryzub">
+      <h3 class="form_title">Поділись, будь-ласка, поштою</h3>
+      <p class="form_discription">та запиши гуся до бандерозагону</p>
+      
+      <div class="form_field">
+        <label for="user_name" class="form_field_label">Ім'я</label>
+        <input type="text" class="form_field_input" name="Ім'я" id="user_name" required>
+      </div>
+      
+      <div class="form_field form_field_emeil">
+        <label for="user-email" class="form_field_label">Email</label>
+        <input type="email" class="form_field_input" name="Email" id="user-email" required>
+      </div>
+      
+      <button class="form_btn" id="launch-btn">Запустити  гуся</button>
+    </form>
+    
+  </section>
+  <script>src="/js/form.js"</script>
 </body>
 </html>

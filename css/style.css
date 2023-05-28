@@ -31,6 +31,7 @@ body {
   padding-left: 12px;
   padding-right: 12px;
   padding-bottom: 12px;
+  cursor: pointer;
 }
 .main_page_left_side{
   padding-left: 95px
@@ -119,4 +120,90 @@ body {
 .gus_facts_2{
   padding-left: 24px;
   padding-right: 24px;
+}
+.form_section{
+  background: linear-gradient(270deg,#a5deff 0%, #fcfefe 100%);
+  padding-top: 80px;
+  padding-bottom: 80px;
+  width: 1360px;
+  height: 720px;
+}
+.form_conteiner{
+  background: #ffffff;
+  border-radius: 40px;
+  padding-top: 32px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 60px;
+  width: 573px;
+  margin: auto;
+  text-align: center;
+  box-sizing: border-box;
+}
+.form_title{
+  margin-top: 32px;
+  margin-bottom: 12px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 24px;
+  color: #1b1d1f;
+}
+.form_field{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 24px;
+}
+.form_field_emeil{margin-bottom: 48px;}
+.form_field_lable{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1b1d1f;
+  margin-bottom: 8px;
+}
+.form_discription{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1b1d1f;
+  margin-bottom: 24px;
+}
+.form_field_input{
+  height: 60px;
+  width: 453px;
+  border: 1px solid #005bbb;
+  border-radius: 8px;
+  padding-left: 8px;
+  padding-right: 8px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1b1d1f;
+}
+.form_btn{
+  background: #ff6b0a;
+  border-radius: 8px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  cursor: pointer;
+}
+.gus-anim {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin-bottom: auto;
+    margin-top: auto;
+    width: 100%;
+    z-index: 2;
+    pointer-events: none;
 }
