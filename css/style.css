@@ -1,0 +1,122 @@
+html,
+body {
+    margin: 0;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+.main_page{
+  background: linear-gradient(270deg,#a5deff 0%, #fcfefe 100%);
+  width: 1360px;
+  height: 720px;
+  
+}
+.main_page_text_conteiner{
+  background: #ffffff;
+  border-radius: 40px;
+  padding-top: 60px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 60px;
+}
+.main_page_button{margin-bottom: 32px;
+  margin-top: 8px;
+  border: none;
+  background: #ff6b0a;
+  border-radius: 8px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  padding-top: 12px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-bottom: 12px;
+}
+.main_page_left_side{
+  padding-left: 95px
+}
+.wrapper{
+  width: 1360px;
+  margin: auto;
+  display: flex;
+}
+.logo{
+  margin-top: 32px;
+  margin-bottom: 60px;
+}
+.main_page_text_conteiner_h1{
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 72px;
+  color: #1b1d1f;
+  margin-top: 0;
+  margin-bottom: 0;
+  
+}
+.main_page_text_conteiner_h2{
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1b1d1f;
+  margin-top: 0;
+  margin-bottom: 60px;
+}
+.main_page_text_conteiner_p{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1b1d1f;
+  margin-top: 24px;
+  margin-bottom: 32px;
+}
+.gus_facts{
+  padding-top: 48px;
+  padding-bottom: 100px;
+  width: 1360px;
+  text-align: center;
+}
+.tryzub{
+  margin-bottom: 24px;
+}
+.gus_facts_nam{
+  margin-top: 0;
+  margin-bottom: 24px;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 72px;
+  color: #1b1d1f;
+}
+.gus_facts_discription{
+  width: 772px;
+  margin: auto;
+  margin-bottom: 24px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1b1d1f;
+}
+.facts{
+  display: flex;
+  width: 1170px;
+  margin: auto;
+  justify-content: space-between;
+}
+.gus_facts_name{
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 24px;
+  color: #1b1d1f;
+  margin-bottom: 32px;
+  margin-top: 8px;
+}
+.gus_facts_disc{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1b1d1f;
+  
+}
+.gus_facts_2{
+  padding-left: 24px;
+  padding-right: 24px;
+}
